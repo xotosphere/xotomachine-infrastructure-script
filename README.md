@@ -7,7 +7,7 @@
 ### ✅ RUN WITH BASH
 ``` shell
 # one liner after cd into : ~ folder
-git clone https://github.com/xotomachine/xotomachine-script.git && sh ./xotomachine-script/setup.sh username
+git clone https://github.com/xotosphere/xotomachine-script.git && sh ./xotomachine-script/setup.sh username
 ```
 
 ### 👾 INSTALL NVIM PACKER
