@@ -30,7 +30,7 @@ echo "FZF_VERSION=0.21.1" >>/etc/environment
 echo "GITSTATUS_VERSION=1.0.0" >>/etc/environment
 
 # ENVIRONMENT VARS
-echo "DOTFILE_REPO=https://github.com/xotomachine/xotomachine-dotfiles.git" >>/etc/environment
+echo "DOTFILE_REPO=https://github.com/xotosphere/xotomachine-dotfiles.git" >>/etc/environment
 
 ###################################################### setup script
 
