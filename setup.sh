@@ -34,24 +34,24 @@ echo "DOTFILE_REPO=https://github.com/xotosphere/xotomachine-dotfiles.git" >>/et
 
 ###################################################### setup script
 
-sudo chmod a+x ./xotomachine-script/setup/*.sh
+sudo chmod a+x ./xotomachine-infrastructure-script/setup/*.sh
 
 ######################################################
 
-sudo sh ./xotomachine-script/setup/root.sh
+sudo sh ./xotomachine-infrastructure-script/setup/root.sh
 
 ######################################################
 
-sudo sh ./xotomachine-script/setup/apts.sh
-sudo sh ./xotomachine-script/setup/language.sh
-sudo sh ./xotomachine-script/setup/database.sh
-sudo sh ./xotomachine-script/setup/zsh.sh
-sudo sh ./xotomachine-script/setup/dotfiles.sh
-sudo sh ./xotomachine-script/setup/package.sh
-sudo sh ./xotomachine-script/setup/ccat.sh
+sudo sh ./xotomachine-infrastructure-script/setup/apts.sh
+sudo sh ./xotomachine-infrastructure-script/setup/language.sh
+sudo sh ./xotomachine-infrastructure-script/setup/database.sh
+sudo sh ./xotomachine-infrastructure-script/setup/zsh.sh
+sudo sh ./xotomachine-infrastructure-script/setup/dotfiles.sh
+sudo sh ./xotomachine-infrastructure-script/setup/package.sh
+sudo sh ./xotomachine-infrastructure-script/setup/ccat.sh
 
-cp -o $USER_NAME ./xotomachine-script/setup/ccat /usr/local/bin/
-sudo sh ./xotomachine-script/setup/clean.sh
+cp -o $USER_NAME ./xotomachine-infrastructure-script/setup/ccat /usr/local/bin/
+sudo sh ./xotomachine-infrastructure-script/setup/clean.sh
 
 zsh
 
